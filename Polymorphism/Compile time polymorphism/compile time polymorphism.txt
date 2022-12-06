@@ -1,0 +1,15 @@
+// static = function overloading, operator overloading
+
+// run time = dynamic polymorphism 
+
+// void func(int a, int b)
+
+// void func(int a)
+
+// int func(int a, int b = 10)
+
+// x = func(2)
+// print(x)
+
+method overloading
+
