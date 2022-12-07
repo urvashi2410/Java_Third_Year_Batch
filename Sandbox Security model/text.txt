@@ -1,0 +1,3 @@
+it is used to seperate the running programs from the other codes to minimize the system failures or bugs 
+
+It is a kind of secure environment in which we run the code in which we dont have enough trust 
