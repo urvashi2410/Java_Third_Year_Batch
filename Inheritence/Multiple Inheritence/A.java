@@ -6,6 +6,11 @@
 // and we have to implement their body in other class to do multiple inheritence 
 // we cannot create objects of an interface 
 
+// class vs interface 
+// class has methods with body but interface contains abstract methods with no body 
+// class has variables which can be instantiate but cannot be instatiated in interface 
+// class can use all the access modifiers but interface can only use public access modifier 
+
 interface P{
     // abstract methods 
     public void display();
@@ -43,3 +48,10 @@ public class A {
         obj.display_y();
     }
 }
+
+
+// method overloading vs method overrriding 
+// method overloading is performed in the same class but overrriding in diff classes 
+// method overloading is used in compile time polymorphism but overrding in run time polymorphism
+// method overloading is also called static binding but overriding is called dynamic binding 
+// in overloading parameters or return type are different but overriding paramters and return type should be same 
