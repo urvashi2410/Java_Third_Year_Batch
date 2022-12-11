@@ -1,0 +1,10 @@
+Is a relationship is used in inheritence 
+
+extends keyword is used or this relationship
+
+benifits: 
+code resusability 
+code readable 
+
+characteristics:
+unidirectional = vice versa is not true 
