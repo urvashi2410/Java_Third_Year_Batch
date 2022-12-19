@@ -1,0 +1,60 @@
+Thread()
+Thread(Runnable r)
+Thread(Runnable r, string name)
+Thread(ThreadGroup g, string name)
+Thread(string name)
+
+private: 
+string name = "yash"
+
+public string getName():
+return name;
+
+public void setName(string n):
+name = n;
+
+main:
+name = obj.getName();
+
+
+getters and setters = getXXXX 
+
+how to set priority: 
+Thread.MIN_PRIORITY = 0
+Thread.MIN_PRIORITY + 1 = 1
+Thread.MAX_PRIORITY - 9 = 1
+
+java inbuilt Multithreading getters and setters 
+1. long getId()
+2. int getPriority()
+3. string getName()
+4. ThreadState getState()
+5. ThreadGroup getThreadGroup()
+6. void setName(string name)
+7. void setPriority(int p)
+8. setDaemon(boolean d)
+
+
+enquiry functions 
+1. boolean isAlive()
+2. boolean isDaemon()
+3. boolean isInterrupted()
+
+Instance methods
+1. void interrupt()
+2. void join()
+3. void join(long millis)
+4. void run()
+5. void start()
+
+static methods
+1. int activeCount()
+2. void yield()
+3. Thread currentThread()
+
+
+
+
+microsoft word = auto save, spell check, input from keyboard = 3 thread 
+
+MIN_PRIORITY(auto save, spell check) = Daemon thread 
