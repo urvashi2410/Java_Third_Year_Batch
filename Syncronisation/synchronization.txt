@@ -1,0 +1,7 @@
+resource sharing 
+critical section = piece of code which is common in both the threads which is used to access the shared resource 
+mutual exclusion 
+locking/mutex 
+semaphore
+monitor 
+
