@@ -1,11 +1,12 @@
 // shared resource 
+// monitor is used here 
 class P{
-    public void display(String s){
-        synchronized(this){
+    synchronized public void display(String s){
+        // synchronized(this){
             for(int i = 0; i < s.length(); i++){
                 System.out.println(s.charAt(i));
             }
-        }
+        // }
     }
 }
 
