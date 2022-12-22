@@ -5,3 +5,17 @@ locking/mutex
 semaphore
 monitor 
 
+insert into students values(1, "Abhay", 12, "C", "M", "02-10-2002", 87);
+insert into students values(2, "Arunav", 14, "A", "M", "12-01-2002", 92);
+insert into students values(3, "Kishan", 31, "A", "M", "09-06-2002", 90);
+insert into students values(4, "Kuber", 07, "B", "M", "18-05-2002", 78);
+insert into students values(5, "Riya", 24, "C", "F", "07-11-2003", 98);
+insert into students values(6, "Chirag", 11, "B", "M", "11-10-2001", 89);
+insert into students values(7, "Ashi", 12, "A", "F", "22-08-2003", 77);
+insert into students values(8, "Rudra", 05, "C", "M", "03-10-2002", 89);
+insert into students values(9, "Isha", 13, "B", "F", "12-12-2001", 57);
+insert into students values(10, "Abhinav", 18, "C", "M", "01-11-2003", 97);
+
+
+
+

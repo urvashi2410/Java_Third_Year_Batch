@@ -1,0 +1,25 @@
+r = -b/2a 
+r = -b/(2*a)
+
+compiler will not detect logical error 
+it will be difficult to detect a logical error 
+
+for(int i = 1; i < arr.length; i++){
+    sop(arr[i]);
+}
+
+Debugger will debug the logical error 
+programmers 
+
+
+Syntax erros = programmers, compiler detect 
+
+Runtime errors 
+bad input 
+internet connection not given 
+resource not given 
+
+runtime errors are for users 
+Exceptions 
+Arithematic exception 
+
